@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-int c;
+char c;
 for (c = 0; c < 10 ; c++)
 {
-printf("%i ", c);
+printf("%c ", c);
 }
 printf("\n");
 return (0);
