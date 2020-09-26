@@ -6,14 +6,12 @@
  */
 int main(void)
 {
-char c;
-char d;
-for (c = 97; c <= 122; c++)
-{
-for (d = 65; c <= 90; d++)
-putchar(d);
-}
-putchar(c);
+char lowerCase;
+char upperCase;
+for (lowerCase = 97; lowerCase <= 122; lowerCase++)
+putchar(lowerCase);
+for (upperCase = 65; upperCase <= 90; upperCase++)
+putchar(upperCase);
 putchar('\n');
 return (0);
 }
