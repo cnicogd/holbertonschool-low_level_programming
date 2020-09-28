@@ -22,3 +22,7 @@ int _isalpha(int c);
 * this is the print_sign prototype
 */
 int print_sign(int n);
+/*
+* this is the abs  prototype
+*/
+int _abs(int);
