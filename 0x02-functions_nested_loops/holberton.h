@@ -10,3 +10,7 @@ void print_alphabet(void);
 *This prototype prints the alphabet 10 TIMES
 */
 void print_alphabet_x10(void);
+/*
+* this is the islower prototype
+*/
+int _islower(int c);
