@@ -26,3 +26,8 @@ int print_sign(int n);
 * this is the abs  prototype
 */
 int _abs(int);
+/*this is the print_las prototype
+ *
+ */
+int print_last_digit(int);
+
