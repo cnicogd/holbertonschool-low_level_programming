@@ -31,7 +31,11 @@ int _abs(int);
  */
 int print_last_digit(int);
 /*
- *this is the jacsk bauer 
+ *this is the jack bauer 
  */
 void jack_bauer(void);
+/*
+ * this is the multiplication tables from 0 to 9
+ */
+void times_table(void);
 
