@@ -1,12 +1,13 @@
 #include "holberton.h"
 /**
- *  - check the code for Holberton School students.
+ *jack_bauer  - this gives you something like a timer.
  *
- * Return: Always 0.
+ * Return: timer.
  */
 void jack_bauer(void)
 {
 	int horas, min;
+
 	for (horas = 0; horas < 24; horas++)
 	{
 		min = 0;
@@ -18,8 +19,7 @@ void jack_bauer(void)
 			_putchar(min / 10 + 48);
 			_putchar(min % 10 + 48);
 			_putchar('\n');
-
-			min ++;
-}
-} 
+			min++;
+		}
+	}
 }
