@@ -30,4 +30,8 @@ int _abs(int);
  *
  */
 int print_last_digit(int);
+/*
+ *this is the jacsk bauer 
+ */
+void jack_bauer(void);
 
