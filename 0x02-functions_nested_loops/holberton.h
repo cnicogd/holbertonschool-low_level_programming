@@ -42,3 +42,7 @@ void times_table(void);
  * this is the functions that adds 2 integers
  */
 int add(int, int);
+/**
+ *this prints the numbers from 0 to 98
+ */
+void print_to_98(int n);
