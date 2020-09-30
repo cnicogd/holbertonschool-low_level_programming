@@ -11,7 +11,7 @@ int decimal;
 for (decimal = '0'; decimal <= '9'; decimal++)
 {
 putchar(decimal);
-if (decimal <= '9')
+if (decimal < '9')
 {
 putchar(',');
 putchar(' ');
