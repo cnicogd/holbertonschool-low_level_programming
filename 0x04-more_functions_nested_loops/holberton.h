@@ -10,3 +10,7 @@ int _isupper(int c);
  *checks for a digit (0 through 9)
  */
 int _isdigit(int c);
+/**
+ *multiplies 2 digits
+ */
+int mul(int a, int b);
