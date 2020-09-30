@@ -14,3 +14,7 @@ int _isdigit(int c);
  *multiplies 2 digits
  */
 int mul(int a, int b);
+/**
+ * prints numbers from 0 to 9 and \n
+ */
+void print_numbers(void);
