@@ -19,7 +19,11 @@ int mul(int a, int b);
  */
 void print_numbers(void);
 /**
- *unction that prints the numbers, from 0 to 9 except 2 & 4.
+ *function that prints the numbers, from 0 to 9 except 2 & 4.
  */
 void print_most_numbers(void);
+/**
+ *function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+ */
+void more_numbers(void);
 
