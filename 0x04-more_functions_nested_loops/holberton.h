@@ -18,3 +18,8 @@ int mul(int a, int b);
  * prints numbers from 0 to 9 and \n
  */
 void print_numbers(void);
+/**
+ *unction that prints the numbers, from 0 to 9 except 2 & 4.
+ */
+void print_most_numbers(void);
+
