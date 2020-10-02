@@ -14,8 +14,8 @@ int main(void)
 			printf("Fizz");
 		if (a % 5 == 0)
 			printf("Buzz");
-		if ((a % 3) == 0 && (a % 5) == 0)
-			printf("%d", a);
+		if (a % 3 && a % 5)
+			printf("FizzBuzz");
 		putchar(' ');
 	}
 	putchar('\n');
