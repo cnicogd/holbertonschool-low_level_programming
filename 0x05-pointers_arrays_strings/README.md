@@ -1,0 +1,1 @@
+his folder contains everithing you need to know about pointers and arrays
