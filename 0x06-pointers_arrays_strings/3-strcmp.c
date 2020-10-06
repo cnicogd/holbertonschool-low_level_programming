@@ -10,14 +10,15 @@ int _strcmp(char *s1, char *s2)
 	int i = 0;
 	int sum = 0;
 
-while (s1[i] != '\0')
+	while (s1[i] == s2[i] && s1[i] != '\0')
 	{
-if (s1[i] != s2[i])
+		i++;
+	}
+if (s1[1] == '\0')
 {
-	sum = s1[0] - s2[0];
-	return (sum);
+	return (0);
+
 }
-i++;
-}
+sum = s1[1] - s2[i];
 return (sum);
 }
