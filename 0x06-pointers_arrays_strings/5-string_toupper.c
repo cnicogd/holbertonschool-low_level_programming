@@ -7,12 +7,11 @@
 */
 char *string_toupper(char *s)
 {
-	int c, ch;
+	int c;
 
 	while (s[c] != '\0')
 {
-		ch = s[c];
-		if (ch >= 'a' && ch <= 'z')
+		if (s[c] >= 'a' && s[c] <= 'z')
 			s[c] = s[c] - 32;
 				c++;
 	}
