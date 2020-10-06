@@ -14,3 +14,16 @@ char *_strncpy(char *dest, char *src, int n);
  *function that compares two strings.
  */
 int _strcmp(char *s1, char *s2);
+/**
+ *yfunction that reverses the content of an array of integers.
+ */
+void reverse_array(int *a, int n);
+/**
+ *function that changes all lowercase letters of a string to uppercase.
+ */
+char *string_toupper(char *);
+/**
+ *function that capitalizes all words of a string.
+ */
+char *cap_string(char *);
+
