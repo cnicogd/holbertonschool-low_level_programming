@@ -9,8 +9,8 @@
 
 char *rot13(char *s)
 {
-char arrN[] = "aAbBcCdDeEfFgGhHIijJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
-char array[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHIijJkKlLmM";
+char arrN[] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+char array[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 int i, j;
 
 for (i = 0; s[i] != '\0'; ++i)
