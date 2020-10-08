@@ -20,6 +20,7 @@ for (j = 0; array[j] != '\0'; ++j)
 if (s[i] == array[j])
 {
 s[i] = arrN[j];
+break;
 }
 }
 }
