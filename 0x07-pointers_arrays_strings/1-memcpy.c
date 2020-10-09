@@ -1,14 +1,15 @@
 #include "holberton.h"
 /**
- *
+ *_memcpy - copy the adress os src on dest
+ *Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i ;
+	unsigned int i = 0;
 	
-while (i < n)
+	while (i < n)
 	{
-		src[n] = dest[n];
+		src[i] = dest[i];
 		i++;
 }
 	return (dest);
