@@ -3,11 +3,11 @@
 /**
  *_strchr - function that locates a character in a string.
  *@s: string
- *@accept: check the segment to be compared
- *Return: returns the number of bytes in the initial segment of s which consist only of bytes from accept
+ *@accept: bytes returned by the string if the first occurence is detected
+ *Return: locate the char
  */
-unsigned int _strspn(char *s, char *accept)
-{
+char *_strpbrk(char *s, char *accept)
+    {
     int i, j;
 
     for (i = 0 ; s[i] != '\0' ; s++)

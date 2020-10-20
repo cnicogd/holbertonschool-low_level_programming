@@ -1,3 +1,5 @@
+/* putchar prototype */
+int _putchar(char c);
 /**
  *Returns a pointer to the memory area s
  */
@@ -14,5 +16,7 @@ char *_strchr(char *s, char c);
  * function that gets the length of a prefix substring.
  */
 unsigned int _strspn(char *s, char *accept);
-
- 
+/* function that prints the chessboard.*/
+void print_chessboard(char (*a)[8]);
+/* function that sets the value of a pointer to a char.*/
+ void set_string(char **s, char *to);
