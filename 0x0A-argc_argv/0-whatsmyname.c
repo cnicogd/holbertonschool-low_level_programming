@@ -1,5 +1,6 @@
-#include "holberton.h"
+#include <stdlib.h>
 #include <stdio.h>
+#include "holberton.h"
 
 /** main - Program that prints its name, followed by a new line.
  *argc: Values to be passed by argv on the main function

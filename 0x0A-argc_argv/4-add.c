@@ -1,3 +1,12 @@
+#include <stdlib.h>
+#include "holberton.h"
+/**
+ * main - main fun.
+ * @argc: argc.
+ * @argv: argv.
+ * Return: O.
+ */
+int main( argc, char *argv[])
 {
 int sum = 0;
 int i, j;
