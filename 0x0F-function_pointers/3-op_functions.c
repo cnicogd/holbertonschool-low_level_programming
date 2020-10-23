@@ -21,7 +21,7 @@ int op_sub( int a , int b)
 	return (a - b);
 }
 /**
-* op_sub - sums 2 integers
+* op_mul - sums 2 integers
 *@a: first int
 *@b: second int
 *Return : multiplication of a and b
@@ -31,7 +31,7 @@ int op_mul(int a , int b)
 	return (a * b);
 }
 /**
-* op_add - sums 2 integers
+* op_div - sums 2 integers
 *@a: first int
 *@b: second int
 *Return : division  of a and b
@@ -41,7 +41,7 @@ int op_div(int a , int b)
 	return (a / b);
 }
 /**
-* op_add - sums 2 integers
+* op_mod - sums 2 integers
 *@a: first int
 *@b: second int
 *Return : modulo of a and b
