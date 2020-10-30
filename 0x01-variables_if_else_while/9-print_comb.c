@@ -6,17 +6,19 @@
  */
 int main(void)
 {
-int decimal;
+int c;
+c = 48;
 
-for (decimal = '0'; decimal <= '9'; decimal++)
+while (c <= 57)
 {
-putchar(decimal);
-if (decimal < '9')
+putchar(c);
+if (c < 57)
 {
 putchar(',');
 putchar(' ');
 }
+c++;
 }
-putchar('\n');
+printf("\n");
 return (0);
 }

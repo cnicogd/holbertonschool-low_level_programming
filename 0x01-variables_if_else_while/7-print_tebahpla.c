@@ -7,9 +7,12 @@
 int main(void)
 {
 int tebahpla;
-for (tebahpla = 'z'; tebahpla >= 'a' ; tebahpla--)
+tebahpla = 122;
+
+while (tebahpla >= 97)
 {
 putchar(tebahpla);
+tebahpla--;
 }
 putchar('\n');
 return (0);
