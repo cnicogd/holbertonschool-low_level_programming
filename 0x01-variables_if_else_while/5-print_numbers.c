@@ -7,9 +7,11 @@
 int main(void)
 {
 int c;
-for (c = 0; c <= 9 ; c++)
+c = 0;
+while (c <= 9)
 {
 printf("%i", c);
+c++;
 }
 printf("\n");
 return (0);
