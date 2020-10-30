@@ -6,12 +6,21 @@
  */
 int main(void)
 {
-char lowerCase;
-char upperCase;
-for (lowerCase = 97; lowerCase <= 122; lowerCase++)
+int lowerCase, upperCase;
+
+lowerCase = 97;
+upperCase = 65;
+
+while (lowerCase <= 122)
+{
 putchar(lowerCase);
-for (upperCase = 65; upperCase <= 90; upperCase++)
+lowerCase++;
+}
+while (upperCase <= 90)
+{
 putchar(upperCase);
+upperCase++;
+}
 putchar('\n');
 return (0);
 }
