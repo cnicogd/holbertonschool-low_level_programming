@@ -5,33 +5,31 @@
  */
 int main(void)
 {
-int i;
+int counter, unit, decimal;
 
-for (i = 0; i < 100; i++)
-{
-if (!(i >= 10 && i <= 11 && i >= 20 && i <= 22))
-{
-if (!(i >= 30 && i <= 33 && i >= 40 && i <= 44))
-{
-if (!(i >= 50 && i <= 55 && i >= 60 && i <= 66))
-{
-if (!(i >= 70 && i <= 77 && i >= 80 && i <= 88))
-{
-if (!(i >= 90 && i <= 99))
-{
-putchar(i / 10 + 48);
-putchar(i % 10 + 48);
-if (i != 89)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
-}
-}
-}
-putchar('\n');
-return (0);
+unit = 0;
+decimal = 0;
+counter = 0;
+
+		while (counter < 100)
+		{
+		unit = counter % 10;
+		decimal = counter / 10;
+			if (unit != decimal)
+			{
+				if (decimal < unit)
+				{
+					putchar((counter / 10) + 48);
+					putchar((counter % 10) + 48);
+					if (counter != 89)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		counter++;
+		}
+		putchar('\n');
+		return (0);
 }
