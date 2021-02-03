@@ -6,6 +6,6 @@ include <stdio.h>
  */
 int main(void)
 {
-	puts("\"programing is like building a miltilingual puzzle");
+	puts("\"Programming is like building a miltilingual puzzle\n");
 	return (0);
 }
