@@ -1,16 +1,21 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * print the from 00 to 99
+ * Return: Always 0 (sucess)
+**/
 
 int main(void)
 {
-	int i , j;
+	int i, j;
 
 	for (i = 0; i <= 9; i++)
 	{
-		for(j = 0; j <= 9; j++)
+		for (j = 0; j <= 9; j++)
 		{
 			putchar(i + 48);
 			putchar(j + 48);
-			if(!(i == 9 && j == 9))
+			if (!(i == 9 && j == 9))
 			{
 			putchar(',');
 			putchar(' ');
