@@ -13,7 +13,7 @@ int main(void)
 	while (c >= 97)
 	{
 		putchar(c);
-		c++;
+		c--;
 	}
 	putchar ('\n');
 	return (0);
