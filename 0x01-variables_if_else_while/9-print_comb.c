@@ -8,12 +8,12 @@ int main(void)
 {
 	int c;
 
-	c = 48;
+	c = 0;
 
-	while (c <= 57)
+	while (c <= 9)
 	{
 		putchar(c + 48);
-		if (c != 57)
+		if (c != 9)
 		putchar(',');
 		putchar(' ');
 		c++;
