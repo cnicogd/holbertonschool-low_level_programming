@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ *main -program that prints all possible different combinations of two digits.
+ *Return: numbers to be printed.
+ **/
 int main(void)
 {
 	int unit, decimal;
