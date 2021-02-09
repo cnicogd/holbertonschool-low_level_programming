@@ -3,7 +3,7 @@
  *_abs - Write a function that computes the absolute value of an integer.
  *
  *@n: parameter to be passes trought the function
- * Return:  0 (0), 1 (+), -1 (-)
+ * Return:  n
  */
 int _abs(int n)
 {
