@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - Entry point
+ *  print_alphabet- print the alphabet
  *
  * Return: Always 0 (Success)
  */
@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	c = 97;
 
-	while (c <=122)
+	while (c <= 122)
 	{
 		_putchar(c);
 		c++;
