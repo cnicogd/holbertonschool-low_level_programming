@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_most_numbers - Write a function that prints the numbers, except 2 & 4'\n'.
+ * print_most_numbers - numbers except 2 & 4'\n'.
  *
  * Return - numbers
  */
