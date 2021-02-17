@@ -5,7 +5,7 @@
 *@src: src string.
 *@dest: dest string.
 *
-*Return: dest
+*Return: pointer to dest.
 */
 char *_strcpy(char *dest, char *src)
 {
