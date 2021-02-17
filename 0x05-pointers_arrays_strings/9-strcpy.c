@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-*_strcpy - pointer from src to dest
+* _strcpy - pointer from src to dest
 *
 *@src: src string.
 *@dest: dest string.
