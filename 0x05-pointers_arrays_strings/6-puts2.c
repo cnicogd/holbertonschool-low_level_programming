@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * puts2 -Write a function that prints every other character of a string, starting with the first character.
+ * puts2 -Function that prints every other character of a string.
  *
  * @str: characters to be printed.
  */
@@ -12,7 +12,7 @@ void puts2(char *str)
 	{
 	length++;
 	}
-	for (i = 0; i < length; i+=2)
+	for (i = 0; i < length; i += 2)
 	{
 		_putchar(str[i]);
 	}
