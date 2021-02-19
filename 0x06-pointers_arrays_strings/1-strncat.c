@@ -1,4 +1,11 @@
 #include "holberton.h"
+/**
+ * _strncat - Function that concatenates two strings.
+ *@dest: String
+ *@src: String
+ *@n: Integer
+ * Return: String
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
