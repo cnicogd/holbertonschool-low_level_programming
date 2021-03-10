@@ -1,3 +1,5 @@
+#include "dog.h"
+#include <stdio.h>
 /**
  * init_dog - new  dog struct
  *@x: parameter x
