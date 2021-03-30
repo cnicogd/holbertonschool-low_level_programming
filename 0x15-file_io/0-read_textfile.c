@@ -8,7 +8,7 @@ int _str_len(char *s)
 {
 	int lenght = 0;
 
-	while (s[length] != '\0')
+	while (s[lenght] != '\0')
 	{
 		lenght++;
 	}
@@ -43,7 +43,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	n = _str_len(buffer);
-	n = write(STDOUT_FILENO, buffer, v);
+	n = write(STDOUT_FILENO, buffer, n);
 	if (n == -1)
 	{
 		free(buffer);
